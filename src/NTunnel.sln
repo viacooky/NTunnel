@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortForward", "PortForward\PortForward.csproj", "{5F8D52C5-9FF5-4B3B-BB94-973F2028B8F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortForward", "Demo\PortForward\PortForward.csproj", "{5F8D52C5-9FF5-4B3B-BB94-973F2028B8F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortForward.Console", "PortForward.Console\PortForward.Console.csproj", "{F6233398-B041-4A9B-BA78-4F763E5F7723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortForward.Console", "Demo\PortForward.Console\PortForward.Console.csproj", "{F6233398-B041-4A9B-BA78-4F763E5F7723}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{AE27BD4F-CED0-4E88-AAEB-A2D70DB323C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocket.Client", "Demo\WebSocket.Client\WebSocket.Client.csproj", "{A7A393D6-373F-496B-965D-FD4C6E88CD54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocket.Client", "Demo\WebSocket.Client\WebSocket.Client.csproj", "{A7A393D6-373F-496B-965D-FD4C6E88CD54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocket.Server", "Demo\WebSocket.Server\WebSocket.Server.csproj", "{7F991BA5-FAAE-4D2F-B64B-F2D259D18BB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocket.Server", "Demo\WebSocket.Server\WebSocket.Server.csproj", "{7F991BA5-FAAE-4D2F-B64B-F2D259D18BB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnetty.Server", "Demo\Dotnetty.Server\Dotnetty.Server.csproj", "{953473BE-7C69-4BBC-96DE-9DDC8694EE62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnetty.Client", "Demo\Dotnetty.Client\Dotnetty.Client.csproj", "{52996F55-987F-4481-87BD-47102FAEAEFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,13 +39,25 @@ Global
 		{7F991BA5-FAAE-4D2F-B64B-F2D259D18BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F991BA5-FAAE-4D2F-B64B-F2D259D18BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F991BA5-FAAE-4D2F-B64B-F2D259D18BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953473BE-7C69-4BBC-96DE-9DDC8694EE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953473BE-7C69-4BBC-96DE-9DDC8694EE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953473BE-7C69-4BBC-96DE-9DDC8694EE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953473BE-7C69-4BBC-96DE-9DDC8694EE62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52996F55-987F-4481-87BD-47102FAEAEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52996F55-987F-4481-87BD-47102FAEAEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52996F55-987F-4481-87BD-47102FAEAEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52996F55-987F-4481-87BD-47102FAEAEFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{5F8D52C5-9FF5-4B3B-BB94-973F2028B8F1} = {AE27BD4F-CED0-4E88-AAEB-A2D70DB323C3}
+		{F6233398-B041-4A9B-BA78-4F763E5F7723} = {AE27BD4F-CED0-4E88-AAEB-A2D70DB323C3}
 		{A7A393D6-373F-496B-965D-FD4C6E88CD54} = {AE27BD4F-CED0-4E88-AAEB-A2D70DB323C3}
 		{7F991BA5-FAAE-4D2F-B64B-F2D259D18BB2} = {AE27BD4F-CED0-4E88-AAEB-A2D70DB323C3}
+		{953473BE-7C69-4BBC-96DE-9DDC8694EE62} = {AE27BD4F-CED0-4E88-AAEB-A2D70DB323C3}
+		{52996F55-987F-4481-87BD-47102FAEAEFB} = {AE27BD4F-CED0-4E88-AAEB-A2D70DB323C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27479F18-6435-41A5-9D5F-9C4107B7CBA6}
